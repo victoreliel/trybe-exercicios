@@ -1,0 +1,18 @@
+h1, p {
+    position: absolute;
+    left: 38%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+li:hover {
+    background-color: lime;
+}
+
+li:active {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+list-style:none
