@@ -1,16 +1,39 @@
 ol {
-    background-color: yellow;
+  background-color: yellow;
 }
 
-.par {
-    color: green;
+h1,
+h2,
+h3,
+h4 {
+  color: red;
 }
 
-.impar {
-    text-transform: uppercase;
+ol li:nth-child(even) {
+  color: green;
 }
 
-h1, h2, h3, h4 {
-    color: red;
+ol li:nth-child(odd) {
+  text-transform: uppercase;
 }
 
+li {
+  font-size: 20px;
+}
+
+a:hover {
+ font-weight: bold;
+}
+
+h1 h2 h3 h4 {
+  color: red;
+}
+
+ol li em {
+  font-weight: bold;
+}
+
+h1 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
