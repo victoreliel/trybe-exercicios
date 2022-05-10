@@ -1,6 +1,5 @@
 h1, p {
-    position: absolute;
-    left: 38%;
+    text-align: center;
 }
 
 body {
@@ -15,4 +14,6 @@ li:active {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-list-style:none
+ul ol {
+    list-style: none;
+}

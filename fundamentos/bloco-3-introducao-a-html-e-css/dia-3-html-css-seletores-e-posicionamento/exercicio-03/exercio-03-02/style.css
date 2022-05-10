@@ -1,4 +1,35 @@
-div:hover {
-    background-color: lime;
-    border-style: none;
+div:nth-child(3) :hover {
+  border-style: dashed;
+  background-color: red;
+  transition: ease-out 1s;
+}
+
+div:nth-child(odd) {
+  font-style: italic;
+}
+
+div:nth-child(4) :hover {
+  border-style: dashed;
+  background-color: green;
+  transition: ease-out 1s;
+}
+
+div:nth-child(5) :hover {
+  border-style: dashed;
+  background-color: blue;
+  font-size: 150%;
+  transition: ease-out 1s;
+}
+
+div:nth-child(6) :hover {
+  border-style: dashed;
+  background-color: black;
+  color: white;
+  transition: ease-out 1s;
+}
+
+div:nth-child(7) :hover {
+  border-style: dashed;
+  background-color: lightgreen;
+  transition: ease-out 1s;
 }
