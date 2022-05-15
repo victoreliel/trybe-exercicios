@@ -11,7 +11,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // for(index = 0; index < numbers.length; index += 1) {
 //     somaNumeros += numbers[index];
-// }
+// // }
 // console.log(somaNumeros);
 
 
@@ -99,3 +99,19 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 // console.log(divisaoDosElementos);
+
+
+
+// Invenção do vitão (contagem de letras numa frase)
+
+// let frase = "É preciso amar as pessoas como se não houvesse amanhã";
+// let letra = "e";
+// let contagem = 0;
+
+// for(index = 0; index < frase.length; index += 1) {
+//     if (frase[index] == letra) {
+//         contagem += 1;
+//     }
+// }
+
+// console.log(contagem);
