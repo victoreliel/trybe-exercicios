@@ -44,29 +44,9 @@
 
 // Exercício 3
 
-// let nota = -10;
-
-// if (nota >= 90) {
-//   console.log("A");
-// }
-// else if (nota >= 80 && nota < 90) {
-//   console.log("B");
-// }
-// else if (nota >= 70 && nota < 80) {
-//   console.log("C");
-// }
-// else if (nota >= 60 && nota < 80) {
-//   console.log("D");
-// }
-// else if (nota >= 50 && nota < 60) {
-//   console.log("E");
-// }
-// else if (nota < 50 && nota > 0) {
-//   console.log("F");
-// }
-// else {
-//   console.log("Erro! Nota inválida");
-// }
+// let a = 1;
+// let b = 2;
+// let c = 3;
 
 // if (a > b && a > c) {
 //   console.log("a é o maior");
@@ -101,16 +81,16 @@
 
 // Exercício 5
 
-// const a = 60;
-// const b = 90;
-// const c = 40;
+const a = 60;
+const b = 90;
+const c = 30;
 
-// if (a + b + c == 180) {
-//   console.log(true);
-// }
-// else {
-//   console.log(false), console.log("erro");
-// }
+if (a + b + c == 180) {
+  console.log(true);
+}
+else {
+  console.log(false), console.log("erro");
+}
 
 
 

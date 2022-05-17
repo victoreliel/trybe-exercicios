@@ -1,39 +1,29 @@
 // Exercício 1
 
-// function adicao(a, b) {
-//   let soma = a + b;
-
-//   return soma;
+// function somar(a, b) {
+//   return a + b;
 // }
 
-// function subtracao(a, b) {
-//   let subtracao = a - b;
-
-//   return subtracao;
+// function subtrair(a, b) {
+//   return a - b;
 // }
 
-// function multiplicacao(a, b) {
-//   let multiplicacao = a * b;
-
-//   return multiplicacao
+// function multiplicar(a, b) {
+//   return a * b;
 // }
 
-// function divisao(a, b) {
-//   let divisao = a / b;
-
-//   return divisao;
+// function dividir(a, b) {
+//   return a / b;
 // }
 
 // function modulo(a, b) {
-//   let modulo = a % b;
-  
-//   return modulo;
+//   return a % b;
 // }
 
-// console.log(adicao(6, 3));
-// console.log(subtracao(9, 1));
-// console.log(multiplicacao(4, 2));
-// console.log(divisao(8, 4));
+// console.log(somar(6, 3));
+// console.log(subtrair(9, 1));
+// console.log(multiplicar(4, 2));
+// console.log(dividir(8, 4));
 // console.log(modulo(12, 5));
 
 
@@ -56,3 +46,44 @@
 
 // Exercício 3
 
+// function maiorDeTres(a, b, c) {
+//   if (a > b && a > c) {
+//     return 'A é o maior número';
+//   } else if (b > a && b > c) {
+//     return 'B é o maior número';
+//   } else if (c > a && c > b) {
+//     return 'C é o maior número';
+//   } else {
+//     return 'erro: valores iguais';
+//   }
+// }
+
+// console.log(maiorDeTres(2, 1, 4));
+
+
+// Exercício 4
+
+// function verificarValor(numero) {
+//   if (numero > 0) {
+//     return 'Valor positivo';
+//   } else if (numero < 0) {
+//     return 'Valor negativo';
+//   } else {
+//     return 'zero';
+//   }
+// }
+
+// console.log(verificarValor(0));
+
+
+// Exercício 5
+
+// function verificarTriangulo(a, b, c) {
+//   if (a + b + c == 180) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(verificarTriangulo(30, 90, 60));
