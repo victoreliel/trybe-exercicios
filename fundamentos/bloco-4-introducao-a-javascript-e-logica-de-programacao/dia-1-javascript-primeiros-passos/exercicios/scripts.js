@@ -43,7 +43,8 @@
 
 
 // Exercício 3
-let nota = -10;
+
+// let nota = -10;
 
 // if (nota >= 90) {
 //   console.log("A");
