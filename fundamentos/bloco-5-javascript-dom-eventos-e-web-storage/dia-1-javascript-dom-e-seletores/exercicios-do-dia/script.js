@@ -39,3 +39,10 @@ function paragraphUpperCase() {
 }
 paragraphUpperCase();
 
+function showParagraphs() {
+  let paragrafos = document.getElementsByTagName('p');
+  for (let index = 0; index < paragrafos.length; index += 1) {
+    console.log(paragrafos[index].innerHTML);
+  }
+}
+showParagraphs();
