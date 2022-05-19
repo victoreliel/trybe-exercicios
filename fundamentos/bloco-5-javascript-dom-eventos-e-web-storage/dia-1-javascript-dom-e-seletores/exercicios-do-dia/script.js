@@ -33,3 +33,9 @@ function correctTitle() {
 }
 correctTitle();
 
+function paragraphUpperCase() {
+  let paragrafo = document.getElementsByTagName('p')[0];
+  paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
+}
+paragraphUpperCase();
+
