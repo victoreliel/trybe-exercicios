@@ -9,4 +9,8 @@
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
-document.getElementsByTagName("p")[0].innerText = "Empregado e de casa própria";
+function changeText() {
+  let paragrafo = document.getElementsByTagName('p')[1];
+  paragrafo.innerText = 'Empregado e de casa própria';
+}
+changeText();
