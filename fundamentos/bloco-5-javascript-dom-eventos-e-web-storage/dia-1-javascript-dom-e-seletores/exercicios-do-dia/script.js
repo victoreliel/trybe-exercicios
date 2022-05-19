@@ -14,3 +14,16 @@ function changeText() {
   paragrafo.innerText = 'Empregado e de casa própria';
 }
 changeText();
+
+function changeSquareToGreen() {
+  let square = document.getElementsByClassName('main-content')[0];
+  square.style.backgroundColor = 'rgb(76,164,109)';
+}
+changeSquareToGreen();
+
+function changeSquareToWhite() {
+  let centerSquare = document.getElementsByClassName('center-content')[0];
+  centerSquare.style.backgroundColor = 'white';
+}
+changeSquareToWhite();
+
