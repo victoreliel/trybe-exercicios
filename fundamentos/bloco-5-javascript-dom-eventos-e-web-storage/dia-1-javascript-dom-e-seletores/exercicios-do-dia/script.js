@@ -27,3 +27,9 @@ function changeSquareToWhite() {
 }
 changeSquareToWhite();
 
+function correctTitle() {
+  let title = document.getElementsByTagName('h1')[0];
+  title.innerText = 'Exercício 5.1 - JavaScript';
+}
+correctTitle();
+
