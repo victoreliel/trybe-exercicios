@@ -1,4 +1,4 @@
-// Exercícios
+// Exercícios - Parte I
 
 // 1 - Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 
@@ -7,6 +7,7 @@ let corpo = document.getElementsByTagName("body")[0];
 let titulo = document.createElement("h1");
 titulo.innerText = "Exercício 5.2 - JavaScript DOM";
 titulo.style.textAlign = "center";
+titulo.className = "title";
 
 corpo.appendChild(titulo);
 
@@ -14,6 +15,7 @@ corpo.appendChild(titulo);
 
 let main = document.createElement("main");
 main.className = "main-content";
+main.style.backgroundColor = "green";
 
 corpo.appendChild(main);
 
@@ -38,10 +40,13 @@ section2.className = "left-content";
 
 main.appendChild(section2);
 
+main.removeChild(section2);
+
 // 6 - Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 
 let section3 = document.createElement("section");
 section3.className = "right-content";
+section3.style.marginRight = "auto";
 
 main.appendChild(section3);
 
@@ -66,10 +71,15 @@ for (let index in valores) {
 
 section3.appendChild(listaNaoOrdenada);
 
+for (let index = 8; index <= 9; index += 1) {
+  let remover = document.getElementsByTagName("ul")[0].lastElementChild;
+  listaNaoOrdenada.removeChild(remover);
+}
+
 // 9 - Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
 for (let index = 1; index <= 3; index += 1) {
   let h3 = document.createElement("h3");
-  h3.innerHTML = 'Show ' + index;
+  h3.className = "description";
   main.appendChild(h3);
 }
