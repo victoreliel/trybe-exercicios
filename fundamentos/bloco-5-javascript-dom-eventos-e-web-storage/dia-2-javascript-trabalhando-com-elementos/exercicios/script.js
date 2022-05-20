@@ -30,3 +30,10 @@ let p1 = document.createElement("p");
 p1.innerText = "Olá, eu sou um parágrafo";
 
 section1.appendChild(p1);
+
+// 5 - Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+
+let section2 = document.createElement("section");
+section2.className = "left-content";
+
+main.appendChild(section2);
