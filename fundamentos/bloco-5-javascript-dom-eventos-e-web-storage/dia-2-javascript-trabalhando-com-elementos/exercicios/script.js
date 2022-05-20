@@ -1,6 +1,7 @@
-// Exercícios - Parte I
+// Exercícios
 
 // 1 - Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
+// Parte 2 - Adicione a classe title na tag h1 criada;
 
 let corpo = document.getElementsByTagName("body")[0];
 
@@ -20,6 +21,7 @@ main.style.backgroundColor = "green";
 corpo.appendChild(main);
 
 // 3 - Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+// Parte 2 - Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
 
 let section1 = document.createElement("section");
 section1.className = "center-content";
@@ -34,6 +36,7 @@ p1.innerText = "Olá, eu sou um parágrafo";
 section1.appendChild(p1);
 
 // 5 - Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+// Parte 2 - Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
 
 let section2 = document.createElement("section");
 section2.className = "left-content";
@@ -43,6 +46,7 @@ main.appendChild(section2);
 main.removeChild(section2);
 
 // 6 - Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+// Parte 2 - Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
 
 let section3 = document.createElement("section");
 section3.className = "right-content";
@@ -59,6 +63,7 @@ image.className = "small-image";
 section2.appendChild(image);
 
 // 8 - Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+// Parte 2 - Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
 
 let listaNaoOrdenada = document.createElement("ul");
 let valores = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
@@ -77,6 +82,7 @@ for (let index = 8; index <= 9; index += 1) {
 }
 
 // 9 - Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+// Parte 2 - Adicione a classe description nas 3 tags h3 criadas;
 
 for (let index = 1; index <= 3; index += 1) {
   let h3 = document.createElement("h3");
