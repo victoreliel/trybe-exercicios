@@ -6,6 +6,7 @@ let corpo = document.getElementsByTagName("body")[0];
 
 let titulo = document.createElement("h1");
 titulo.innerText = "Exercício 5.2 - JavaScript DOM";
+titulo.style.textAlign = "center";
 
 corpo.appendChild(titulo);
 
@@ -22,3 +23,10 @@ let section1 = document.createElement("section");
 section1.className = "center-content";
 
 main.appendChild(section1);
+
+// 4 - Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+
+let p1 = document.createElement("p");
+p1.innerText = "Olá, eu sou um parágrafo";
+
+section1.appendChild(p1);
