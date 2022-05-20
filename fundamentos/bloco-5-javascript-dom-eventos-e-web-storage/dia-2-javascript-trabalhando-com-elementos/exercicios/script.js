@@ -15,3 +15,10 @@ let main = document.createElement("main");
 main.className = "main-content";
 
 corpo.appendChild(main);
+
+// 3 - Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+
+let section1 = document.createElement("section");
+section1.className = "center-content";
+
+main.appendChild(section1);
