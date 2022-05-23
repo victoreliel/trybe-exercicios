@@ -54,3 +54,20 @@ secondLi.addEventListener('click', handleChangeTech);
 thirdLi.addEventListener('click', handleChangeTech);
 
 // 3
+
+input.addEventListener('input', function(event) {
+    const techElement = document.querySelector('.tech');
+    techElement.innerText = event.target.value;
+  });
+
+// 4
+
+myWebpage.addEventListener('dblclick', function() {
+  window.location.replace('https://victoreliel.github.io/');
+});
+
+// 5
+
+myWebpage.addEventListener('mousemove', function(event) {
+  event.target.style.color = 'gray';
+});
