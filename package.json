@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "bulma": "^0.9.4",
-    "moment": "^2.29.3"
+    "moment": "^2.29.3",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
   }
 }
