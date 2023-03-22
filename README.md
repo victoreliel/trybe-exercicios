@@ -1,1 +1,1 @@
-Atualização concluída pela branch correta.
+Repositório dos meus exercícios diários na Trybe!
